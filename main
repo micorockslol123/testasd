@@ -101,7 +101,7 @@ window.onload = async (event) => {
 			var verifySuccessDesc = serverDescElement.getAttribute("vc-verify-success");
 			
 			serverTitleElement.textContent = verifySuccessTitle ?? "Verified!";
-			serverDescElement.innerHTML = verifySuccessDesc !== 'custom' ? verifySuccessDesc : "Complete! Service provided by <a class=\"text-red-500 animate-pulse\" href=\"null's discord account (only one)\">https://discordapp.com/users/1195786670725935244</a> | <a class=\"text-red-500 animate-pulse\" href=\"https://www.roblox.com/users/1680299421/profile/">null's roblox account nerd</a>";
+			serverDescElement.innerHTML = verifySuccessDesc !== 'custom' ? verifySuccessDesc : "Complete! Service provided by <a class=\"text-red-500 animate-pulse\" href=\"https://vaultcord.com\">vaultcord.com</a> | <a class=\"text-red-500 animate-pulse\" href=\"https://vaultcord.com/privacy\">Privacy Policy</a>";
 		}
 		else {
 			document.getElementById("failureCross").hidden=false;
